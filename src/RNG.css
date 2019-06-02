@@ -1,0 +1,14 @@
+.RNG {
+    background-color: black;
+    color: rgb(40, 238, 50);
+    border: 3px solid black;
+    z-index: 1;
+    margin:2px;
+
+
+}
+
+.btn {
+    margin: 2px;
+    background-color: rgb(40, 238, 50);
+}
