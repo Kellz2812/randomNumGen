@@ -3,16 +3,25 @@ body {
  }
   
   .bg {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: .6;
-    position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; 
+   
    background-image: url(http://kidscreen.com/wp/wp-content/uploads/2016/06/Ben10.gif);
+   margin-top: 4rem;
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   opacity: .6;
+   background-position: center;
+   margin-top: 6rem;
+   background-repeat: no-repeat;
+   background-size: cover;
   }
 
+@media screen and (min-width: 768px) {
+   .bg{
+    background-position: top center;
+    margin-top: 0;
+   }
+   }
