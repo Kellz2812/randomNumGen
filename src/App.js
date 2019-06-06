@@ -5,7 +5,8 @@ import RNG from './RNG'
 function App() {
   return (
     <div className="App">
-      <RNG />
+      <div className="bg"></div>   
+        <RNG />
     </div>
   );
 }
